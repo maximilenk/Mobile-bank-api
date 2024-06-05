@@ -98,11 +98,6 @@
 
 ```http://localhost:8765/transaction/wallettransactions/walId```
 
-Получение списка транзакци по id кошелька (Метод Get)
-
-```http://localhost:8765/transaction/wallettransactions/walId```
-
-
 Добавление транзакции (метод POST)
 
 ```http://localhost:8765/transaction```
