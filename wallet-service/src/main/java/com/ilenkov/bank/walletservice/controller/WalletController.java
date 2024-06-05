@@ -21,7 +21,7 @@ public class WalletController {
     private final WalletService walletService;
 
     @Autowired
-    public WalletController(WalletService walletService, RestClient restClient) {
+    public WalletController(WalletService walletService) {
         this.walletService = walletService;
     }
     @GetMapping("/userwallets/{ownerId}")
